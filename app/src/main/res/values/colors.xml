@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#1BA9D8</color>
+    <color name="mainBlue">#58A4D4</color>
+    <color name="secondaryBlue">#C1DAE5</color>
+    <color name="reccolor">#A5E4FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="ruteElement">#2196F3</color>
+
+</resources>

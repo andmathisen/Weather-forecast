@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<fragment
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".NyRuteFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        app:layout_anchorGravity="bottom"
+        android:layout_below="@id/toolbar"
+        >
+
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/mainBlue"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>
+</fragment>
+
+
+
+
+
+
+
+

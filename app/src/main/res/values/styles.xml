@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/secondaryBlue</item>
+        <item name="colorPrimaryDark">@color/mainBlue</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="HeaderBar">
+        <item name="android:background">#58A4D4</item>
+    </style>
+    <style name="AppTheme.ActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+    
+    <style name="AlertDialog_theme">
+        <item name="colorPrimary">@color/secondaryBlue</item>
+        <item name="colorPrimaryDark">@color/mainBlue</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:background">@color/mainBlue</item>
+    </style>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/hjem"
+            android:title=""
+            android:icon="@drawable/hjem_knapp_blaa"/>
+
+    <item
+            android:id="@+id/ny_rute"
+            android:title=""
+            android:icon="@drawable/finn_rute_knapp_blaa"/>
+    <item
+            android:id="@+id/mine_ruter"
+            android:title=""
+            android:icon="@drawable/liste_knapp_blaa"/>
+</menu>

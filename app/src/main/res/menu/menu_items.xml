@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".fragment_ny_rute"
+
+>
+
+
+    <item
+
+            android:icon="@drawable/ic_clear_black_24dp"
+            android:id="@+id/clear"
+            android:title="@string/back"
+            android:visible="true"
+
+            app:showAsAction="always">
+    </item>
+
+    <item
+
+            android:icon="@drawable/tilbake_knapp_blaa"
+            android:id="@+id/back"
+            android:title="@string/back"
+            android:visible="true"
+            app:showAsAction="always">
+    </item>
+    <item
+            android:id="@+id/done"
+            android:icon="@drawable/check_knapp_blaa"
+            android:title="@string/done"
+            android:visible="true"
+            app:showAsAction="ifRoom">
+    </item>
+
+
+
+
+
+
+</menu>

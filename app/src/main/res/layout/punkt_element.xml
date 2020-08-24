@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/white"
+        android:id="@+id/cardview"
+        android:backgroundTint="@color/white">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <FrameLayout
+                android:layout_width="52dp"
+                android:layout_height="130dp">
+
+            <ImageView
+                    android:id="@+id/veipunkt"
+                    android:src="@drawable/ic_map_middle"
+                    android:layout_width="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_height="match_parent"
+
+                    android:layout_gravity="center|start"/>
+
+
+
+        </FrameLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/alt"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+            <LinearLayout
+                    android:id="@+id/hoved"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_gravity="start">
+
+                <TextView
+                        android:id="@+id/temp"
+                        android:text="temp"
+                        android:layout_width="70dp"
+                        android:textColor="@color/mainBlue"
+                        android:textSize="15sp"
+                        android:layout_height="match_parent" android:gravity="center|start"/>
+
+                <TextView
+                        android:id="@+id/wind"
+                        android:text="wind"
+                        android:layout_width="128dp"
+                        android:textColor="@color/mainBlue"
+                        android:textSize="15sp"
+                        android:layout_height="match_parent" android:gravity="center|start"/>
+                <TextView
+                        android:id="@+id/waveHeight"
+                        android:text="Wave height"
+                        android:textSize="15sp"
+                        android:textColor="@color/mainBlue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:gravity="center"/>
+
+                <ImageView
+                        android:id="@+id/symbol"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|top"
+                        android:contentDescription="symbol"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:id="@+id/sub_data"
+                    android:layout_width="match_parent"
+                    android:visibility="visible"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                    android:layout_below="@id/hoved" android:gravity="start">
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="30dp">
+                    <TextView
+                            android:id="@+id/vtempTitle"
+                            android:layout_width="86dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            tools:text="Vanntemp:"
+                            android:textColor="@color/mainBlue"
+                            android:gravity="end"/>
+
+
+                    <TextView
+                            android:id="@+id/vindretningTitle"
+                            android:layout_width="109dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:textColor="@color/mainBlue"
+                            android:gravity="center"
+                    />
+                    <TextView
+                            android:id="@+id/tåkeTitle"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            tools:text="Tåke:"
+                            android:textColor="@color/mainBlue" android:textAlignment="viewStart"/>
+
+                    <TextView
+                            android:id="@+id/nedbørTitle"
+                            android:layout_width="98dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:textColor="@color/mainBlue"
+                            tools:text="Nedbør:" android:textAlignment="viewStart"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="30dp">
+
+                    <TextView
+                            android:id="@+id/vannTemp"
+                            android:layout_width="86dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            tools:text="Vanntemp"
+                            android:textColor="@color/mainBlue"
+                            android:textAlignment="center" android:gravity="center"/>
+
+
+                    <TextView
+                            android:id="@+id/vindretning"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:textColor="@color/mainBlue"
+                            tools:text="Vindretning" android:gravity="center" android:textAlignment="center"/>
+                    <TextView
+                            android:id="@+id/tåke"
+                            android:layout_width="43dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            tools:text="Tåke"
+                            android:textColor="@color/mainBlue" android:textAlignment="center"/>
+
+                    <TextView
+                            android:id="@+id/nedbør"
+                            android:layout_width="72dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:textColor="@color/mainBlue"
+                            tools:text="Nedbør" android:textAlignment="center" android:gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
